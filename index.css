@@ -1,0 +1,162 @@
+body{
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+#detail-back{
+    background-color: whitesmoke;
+    width: 80%;
+    margin-left: 10%;
+    padding-top: 5%;
+    padding-bottom: 0;
+}
+.container-fluid{
+    background-image: url("./image/back2.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 500%;
+    padding-top: 15%;
+}
+#my-pic{
+    width:105%;
+    animation-name: slider1;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+}
+#ashishname{
+    padding: 0%;
+}
+#my-details{
+    padding-left: 60px;
+    padding-top: 30px;
+    background-color: white;
+    font-size: 2.5vh;
+    color: gray;
+    text-align: left;
+    animation-name: slider2;
+    animation-iteration-count: 1;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1.5s;
+}
+.bold{
+    font-weight: bold;
+    color: black;
+}
+#media-div{
+    width:100%;
+    height: 80px;
+    background-color: lightgray;
+    padding-top: 18px;
+    text-align: center;
+}
+#media-div img{
+     padding:.70vh;
+     border-radius: 40%;
+     border: 2px solid indianred;
+     transition: .3s;
+}
+#media-div img:hover{
+    transform: rotate(360deg);
+    padding:.70vh;
+    border-radius: 0%;
+    border: 2px solid blue;
+    transition: .6s;
+}
+#intro{
+    margin-top: 5%;
+    text-align: center;
+    width: 350px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: steelblue;
+    /*background-color: lightgray;*/
+}
+#skill{
+    padding-top: 50px;
+    /*background-color: lightgray;*/
+}
+.skill-head {
+    font-size: 13px;
+    padding-bottom: 5px;
+    padding-top: 10px;
+    padding-left: 10%;
+}
+.profile{
+    background-color: white;
+}
+/*.progress-bar {*/
+    /*animation-name: animateBar;*/
+    /*animation-iteration-count: 1;*/
+    /*animation-timing-function: ease-in-out;*/
+    /*animation-duration: 3s;*/
+/*}*/
+@keyframes animateBar {
+    0% {transform: translateX(-100%);}
+    100% {transform: translateX(0);}
+}
+@keyframes slider1 {
+    0% {transform: translateX(-20%);}
+    100% {transform: translateX(20);}
+}
+@keyframes slider2 {
+    0% {transform: translateX(20%);}
+    100% {transform: translateX(20);}
+}
+#respo{
+    background-image: url("./image/wallpaper.wiki-Wallpapers-Dark-Gray-HD-Download-PIC-WPB003491.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color: whitesmoke;
+}
+.respo2{
+    width: 80%;
+    height: 100%;
+    padding: 10%;
+    margin-left: 12%;
+    font-size: 95%;
+    font-family: "sans-serif";
+    animation-name: slider2;
+    animation-iteration-count: 1;
+    animation-timing-function:ease-in-out;
+    animation-duration: 2s;
+}
+.col-md-4{
+    margin-bottom: 10%;
+}
+h3{
+    padding: 20px;
+}
+.edu{
+    margin-left: 35%;
+}
+
+#education{
+    background-image: url("./image/fade-wallpapers-12.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: whitesmoke;
+}
+#contact{
+    background-color: lightgray;
+    padding-bottom: 20px;
+    padding-top: 50px;
+}
+.mail-detail{
+    margin-top: 10%;
+    text-align: center;
+}
+#footer{
+    width: 100%;
+    background-color: black;
+    height: 80px;
+    padding-top: 30px;
+    text-align: center;
+    color: white;
+}
