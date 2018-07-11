@@ -51,14 +51,14 @@ body{
     text-align: center;
 }
 #media-div img{
-     padding:.70vh;
+     padding:.50vh;
      border-radius: 40%;
      border: 2px solid indianred;
      transition: .3s;
 }
 #media-div img:hover{
     transform: rotate(360deg);
-    padding:.70vh;
+    padding:.50vh;
     border-radius: 0%;
     border: 2px solid blue;
     transition: .6s;
