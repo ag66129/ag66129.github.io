@@ -47,18 +47,18 @@ body{
     width:100%;
     height: 80px;
     background-color: lightgray;
-    padding-top: 18px;
+    padding-top: 20px;
     text-align: center;
 }
 #media-div img{
-     padding:.50vh;
+     padding:.35vh;
      border-radius: 40%;
      border: 2px solid indianred;
      transition: .3s;
 }
 #media-div img:hover{
     transform: rotate(360deg);
-    padding:.50vh;
+    padding:.35vh;
     border-radius: 0%;
     border: 2px solid blue;
     transition: .6s;
